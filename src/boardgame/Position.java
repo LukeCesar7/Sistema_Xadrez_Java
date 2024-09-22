@@ -2,14 +2,14 @@ package boardgame;
 
 public class Position {
 
-    private int row;
+    private int row;//Encapsulamento (private)
     private int column;
 
     public Position() {
 
     }
 
-    public Position(int row, int column) {
+    public Position(int row, int column) {//Constructor
         this.row = row;
         this.column = column;
     }
@@ -31,7 +31,7 @@ public class Position {
     }
 
     @Override
-    public String toString() {
+    public String toString() {//sobreposição
         return  row +", "+ column;//imprime a posição linha e coluna na tela
     }
 }
