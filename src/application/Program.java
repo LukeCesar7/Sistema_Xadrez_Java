@@ -1,7 +1,6 @@
 package application;
 
 import boardgame.Board;
-import boardgame.Position;
 import chess.ChessMatch;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
@@ -11,7 +10,5 @@ public class Program {
 
         ChessMatch chessMatch = new ChessMatch();
         UI.printBoard(chessMatch.getPieces());
-
-
     }
 }
