@@ -190,7 +190,7 @@ public class ChessMatch {
         piecesOnTheBoard.add(piece);
     }
 
-    private void initialSetup() {
+    private void initialSetup() {//falta importar o resto das peças
 
         placeNewPiece('h', 7, new Rook(board, Color.WHITE));
         placeNewPiece('d', 1, new Rook(board, Color.WHITE));
